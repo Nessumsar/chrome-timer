@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Timer",
+    "description": "Mark time and right-click to use timer",
+    "version": "1.0",
+    "permissions": ["contextMenus", "notifications"],
+    "background": {
+      "service_worker": "scripts/popup.js"
+    }
+  }
